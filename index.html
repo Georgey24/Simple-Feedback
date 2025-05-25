@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="subform">
+    <h2>Submit feedback bellow</h2>
+    <form id="feedbackForm" action="submit.php" method="post">
+        
+        <label for="name">Name:</label>
+        <input  type="text" id="name" name="name"><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="25" cols="65"></textarea><br>
+
+        <input type="submit" class="subbut" id="checkform" value="Submit">
+    </form>
+    <p id="responseMessage" style="color: green;"></p>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>

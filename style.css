@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    padding-top: 50px;
+}
+
+.subform{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+}
+
+.subbut{
+    margin: 5px;
+    padding: 8px 10px;
+    background-color: navy;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
