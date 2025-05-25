@@ -12,7 +12,7 @@ document.getElementById("feedbackForm").addEventListener("submit",function(event
       .then(data => {
         document.getElementById("responseMessage").innerText = data;
 
-        // Clear the form
+        
         form.reset();
       })
       .catch(error => {
